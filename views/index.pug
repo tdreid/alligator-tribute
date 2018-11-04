@@ -4,8 +4,26 @@ block styles
   link(rel='stylesheet', href='/css/style.css')
 
 block content
-  div(class="container u-full-height")
-     img(src="https://dummyimage.com/640x360/ccc/ded")
+  main(class="u-full-height" id="main")
+    div(class="container")
+      div(class="row")
+        div(class="twelve columns")
+          h1(id="title" class="white-text") The American Alligator
+      div(class="row")
+        div(id="img-div")
+          img(src="/img/gator.jpg" id="image" class="responsive u-max-full-width")
+      div(class="row")
+        div(class="nine columns")  &nbsp;
+        div(class="three columns")
+          p
+            sub(id="image-caption" class="white-text") <i>An american alligator.</i>
+      div(class="row")
+        div(id="tribute-info")
+          p The American alligator (<i>Alligator mississippiensis</i>), sometimes referred to colloquially as a gator or common alligator, is a large crocodilian reptile endemic to the southeastern United States. It is one of two living species in the genus Alligator within the family Alligatoridae; it is larger than the other extant alligator species, the Chinese alligator. Adult male American alligators measure 3.4 to 4.6 m (11.2 to 15.1 ft) in length, and can weigh up to 453 kg (999 lb). Females are smaller, measuring 2.6 to 3 m (8.5 to 9.8 ft) in length. The American alligator inhabits freshwater wetlands, such as marshes and cypress swamps from Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader snout, with overlapping jaws and darker coloration, and is less tolerant of saltwater but more tolerant of cooler climates than the American crocodile, which is found only in tropical climates.
+          p American alligators are apex predators and consume fish, amphibians, reptiles, birds, and mammals. Hatchlings feed mostly on invertebrates. They play an important role as ecosystem engineers in wetland ecosystems through the creation of alligator holes, which provide both wet and dry habitats for other organisms. Throughout the year, in particular during the breeding season, American alligators bellow to declare territory and locate suitable mates.[3] Male American alligators use infrasound to attract females. Eggs are laid in a nest of vegetation, sticks, leaves, and mud in a sheltered spot in or near the water. Young are born with yellow bands around their bodies and are protected by their mother for up to one year.
+          p The American alligator is listed as Least Concern by the International Union for Conservation of Nature. Historically, hunting had decimated their population, and the American alligator was listed as an endangered species by the Endangered Species Act of 1973. Subsequent conservation efforts have allowed their numbers to increase and the species was removed from the list in 1987. American alligators are now harvested for their skins and meat. The species is the official state reptile of three states: Florida, Louisiana, and Mississippi.
+        div
+          a(href="https://en.wikipedia.org/wiki/American_alligator" id="tribute-link" target="_blank") See American alligator. In <i>Wikipedia, The Free Encyclopedia</i>. 
 
 block scripts
   script(src='/js/client.min.js')
