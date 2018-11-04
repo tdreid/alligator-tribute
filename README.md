@@ -2,5 +2,7 @@
 Free Code Camp Responsive Web Design Project - Build a Tribute Page in 1 h 38m
 
 <center>
+
 ![Alligator Tribute Page screenshot](doc/img/screenshot.png)
+
 </center>
